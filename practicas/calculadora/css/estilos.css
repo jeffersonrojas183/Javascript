@@ -1,0 +1,100 @@
+/* CSS INICIALES */
+/* Fuentes y variables */
+:root {
+    --negro: #000;
+    --blanco: #fff;
+    --simbolos: rgb(49, 210, 250);
+    --igual: rgb(94, 185, 94);
+    --reiniciar: red;
+    --lector: rgb(100, 99, 99);
+    --numeros: gray;
+    --bgc:#1e2938;
+
+
+}
+
+/* Sirve para trabajar con multiplos de 10px */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+/* Sirve para que se herede el box-sizing a todas las etiquetas  */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.calculadora {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rem;
+    border-collapse: separate;
+    border-spacing: 0.3rem;
+    background-color: var(--bgc);
+    width: 21rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-weight: bolder;
+
+}
+
+.btn__calcu {
+    border: 0.1rem solid black;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--numeros);
+    border-radius: 0.5rem;
+
+}
+
+.lector__texto {
+    text-align: right;
+    height: 3rem;
+    border: 0.1rem black solid;
+    background-color: var(--lector);
+    border-radius: 0.3rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.btn__c {
+    background-color: var(--reiniciar);
+
+    border: 0.1rem solid black;
+    padding: 1rem;
+    text-align: center;
+     border-radius: 0.5rem;
+}
+
+.btn__simbolosAzul {
+    background-color: var(--simbolos);
+    border: 0.1rem solid black;
+    padding: 1rem;
+    text-align: center;
+     border-radius: 0.5rem;
+}
+
+.btn__igual {
+    background-color: var(--igual);
+    border: 0.1rem solid black;
+    padding: 1rem;
+    text-align: center;
+     border-radius: 0.5rem;
+}
+
+.lelo{
+    font-size: 0.9rem;
+    position: absolute;
+
+}

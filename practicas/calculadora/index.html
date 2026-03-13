@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preload" href="css/reset.css" as="style">
+    <link rel="stylesheet" href="css/reset.css">
+
+
+    <link rel="preload" href="css/estilos.css" as="style">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    <table class="calculadora">
+
+
+        <tr class="lector">
+            <td  colspan="5">
+                <input id="resultado" class="lector__texto" type="text, ">
+            </td>
+        </tr>
+        
+        <tr>
+            <th onclick="limpiar()" class="btn__c">c</th>
+            <th onclick="agregar('&#40')" class="btn__calcu">(</th>
+            <th onclick="agregar('&#41')" class="btn__calcu">)</th>
+            <th onclick="agregar('/')" class="btn__simbolosAzul">÷</th>
+            <th onclick="raiz()" class="btn__simbolosAzul">√</th>
+        </tr>
+        <tr>
+            <th onclick="agregar(7)" class="btn__calcu">7</th>
+            <th onclick="agregar(8)" class="btn__calcu">8</th>
+            <th onclick="agregar(9)" class="btn__calcu">9</th>
+            <th onclick="agregar('*')" class="btn__simbolosAzul">x</th>
+            <th onclick="divideUno()" class="btn__simbolosAzul">1/x</th>
+        </tr>
+        <tr>
+            <th onclick="agregar(4)" class="btn__calcu">4</th>
+            <th onclick="agregar(5)" class="btn__calcu">5</th>
+            <th onclick="agregar(6)" class="btn__calcu">6</th>
+            <th onclick="agregar('-')" class="btn__simbolosAzul">-</th>
+            <th onclick="agregar('**')" class="btn__simbolosAzul">X<sup class="lelo">y</sup></th>
+        </tr>
+        <tr>
+            <th onclick="agregar(1)" class="btn__calcu">1</th>
+            <th onclick="agregar(2)" class="btn__calcu">2</th>
+            <th onclick="agregar(3)" class="btn__calcu">3</th>
+            <th onclick="agregar('+')" class="btn__simbolosAzul">+</th>
+             <th onclick="exponente()" class="btn__simbolosAzul">X<sup class="lelo">2</sup></th>
+        </tr>
+        <tr>
+            <th onclick="agregar(0)" class="btn__calcu">0</th>
+            <th onclick="agregar('.')" class="btn__calcu">.</th>
+            <th onclick="borrar()" class="btn__calcu">←</th>
+            <th colspan="2" onclick="calculo()" class="btn__igual">=</th>
+        </tr>
+
+
+    </table>
+
+    <script src="js/codigo.js"></script>
+</body>
+</html>
