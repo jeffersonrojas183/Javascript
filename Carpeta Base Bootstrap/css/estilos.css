@@ -1,0 +1,38 @@
+:root{
+    --morado: purple;
+}
+
+.text-morado{
+    color: var(--morado) !important;
+   font-weight: 600;
+}
+
+/* *******************Codigo********************************* */
+body{
+    background-color: #4da196;
+}
+
+.caja{
+    background-color: aqua;
+    width: 15rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.boton__pi{
+    background-color: rgb(112, 112, 240);
+    color: aliceblue;
+}
+
+.titulo__pi{
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+

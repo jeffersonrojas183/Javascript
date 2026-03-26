@@ -1,0 +1,8 @@
+:root{
+    --morado: purple;
+}
+
+.text-morado{
+    color: var(--morado) !important;
+   font-weight: 600;
+}

@@ -19,10 +19,7 @@ console.log(resultado); */
 
 
 
-//diferentes maneras de hacerlo
-/* const sumar=function(num1 = 0, num2 = 0) {
-    return num1 + num2;
-}
+
 const resultado = sumar(2, 10);
 console.log(resultado);
 

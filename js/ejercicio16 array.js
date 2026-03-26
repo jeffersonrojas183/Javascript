@@ -127,11 +127,56 @@ if (verificar) {
 /* const acumulado=numero.reduce((total, num)=>total+num, 0); // <---inicia en 0
 console.log(`El acumulado es ${acumulado}`); */ //devuelve el acumulado
 
-const acumulado=numero.reduce((total, numero)=>{
+/* const acumulado=numero.reduce((total, numero)=>{
     console.log(total);
     console.log(numero);
     
     return total+numero;
 })
 console.log(`El acumulado es ${acumulado}`);
+*/
+
+
+
+
+
+// ****************Metodo map*************************
+//Permite recorrer un array de numeros y obtener el cuadro de cada numero
+/* const numeros=[2,3,5,6];
+const cuadrados=numeros.map(num => num*num);
+console.log(cuadrados); //devuelve [4,9,25,36]
+*/
+
+
+
+
+/* ************* Metodo scorp ****************** */
+//es un método de los arrays que ordena los elementos del arreglo Modifica el array original 
+
+/* const nombres=["Juan","Maria","Pedro","Ana"]
+const nombres0=nombres.sort();
+console.log(nombres0); //los devuelve en forma ordenada
+*/
+
+
+
+
+
+/* *************** Ordenar elementos tipos numericos en array con metodo sort ********************* */
+
+/*  sort() ordena los elementos de un array y modifica el original.
+ Por defecto ordena como texto (puede dar resultados incorrectos con números).
+ 
+  Para números:
+  - Ascendente: arr.sort((a, b) => a - b)
+  - Descendente: arr.sort((a, b) => b - a) */
+
+
+const numeros = [20, 10, 30, 15];
+const numeros0 = numeros.sort((a,b)=> a - b ); //Ordena de mayor a menor
+console.log(numeros0);
+
+
+
+
 
